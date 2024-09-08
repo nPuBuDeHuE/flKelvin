@@ -1,0 +1,279 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: "Poppins", sans-serif; */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 30px;
+    max-width: 1230px; /* родная ширина 1170 + отсутпы по краям по 30 */
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #070707;
+    padding: 7px 22px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 21px;
+    transition:
+            background-color 0.2s easy-in,
+            top 0.2s easy-in;
+}
+
+.button:hover, .button:focus {
+    background-color: #323232;
+}
+.button:active {
+    background-color: #000;
+    position: relative;
+    top:1px;
+}
+
+
+/* Header */
+.header {
+    padding-top: 46px;
+    background-color: #F1F1F1;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #000;
+    padding: 0 12px 3px 0;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+/* Navigation */
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+.nav-button {
+    display:none;
+}
+
+/* Header-content */
+
+.header-row {
+    justify-content: space-between;
+    display:flex;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-weight: 400;
+    line-height: 200%;
+}
+
+/* Service */
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.service-card {
+    min-width: 315px;
+    flex: 1 1 0;
+}
+
+.service-card-image {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    line-height: 200%;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-image {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Footer - Contacts*/
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    padding-bottom: 40px;
+}
+
+.contacts-content {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.contacts-button {
+    padding-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-links, .contacts-links a {
+    color: #828282;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
